@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">newsApp</string>
+    <string name="home_label">Home</string>
+    <string name="favorites_label">Favorites</string>
+    <string name="description_text">Welcome to our News App!\nStay up-to-date with the latest news from around the world. Whether you\'re interested in business, entertainment, health, science, sports, or technology, this app has you covered.\n\nKey Features:\n- Browse news articles from various categories.\n- Tap an article to open it in your web browser.\n- Long-press an article to add it to your favorites for quick access.\n\nThis app helps u too stay informed with the latest news!</string>
+    <string name="news_label">News</string>
+    <string name="tap_to_open_in_browser_long_press_to_add_to_favorites">Tap to open in browser \nLong press to add to favorites</string>
+    <string name="start_btn_text">Let start!</string>
+    <string name="category">Category:</string>
+    <string name="info">INFO</string>
+    <string name="no_saved_favorites">No saved favorites</string>
+    <string name="Search">Search</string>
+    <string name="search_topics">search topics</string>
+    <string name="empty_state_message">No available articles found</string>
+</resources>

@@ -1,0 +1,40 @@
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recyclerView"
+         android:layout_width="408dp"
+         android:layout_height="532dp"
+         android:layout_marginStart="1dp"
+         android:layout_marginTop="131dp"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <Button
+         android:id="@+id/searchBtn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="63dp"
+         android:text="@string/Search"
+         app:layout_constraintStart_toEndOf="@+id/searchField"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <EditText
+         android:id="@+id/searchField"
+         android:layout_width="180dp"
+         android:layout_height="43dp"
+         android:layout_marginStart="88dp"
+         android:layout_marginTop="68dp"
+         android:autofillHints="name"
+         android:ems="10"
+         android:hint="@string/search_topics"
+         android:inputType="text"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
